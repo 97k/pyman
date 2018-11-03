@@ -6,6 +6,11 @@ import urllib.error
 import re
 import time
 
+"""
+Requirements: - pytube
+    pip install pytube
+"""
+
 def getPlaylistUrlID(url):
     if 'list=' in url:
         eq_idx = url.index('=') + 1
